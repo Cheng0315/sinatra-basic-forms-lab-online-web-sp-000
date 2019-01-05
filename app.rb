@@ -13,6 +13,6 @@ class App < Sinatra::Base
   post '/puppy' do
     params[:name]
     params[:breed]
-    params[:age].to_i
+    params[:age]
   end
 end
