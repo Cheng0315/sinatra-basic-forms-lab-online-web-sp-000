@@ -11,10 +11,7 @@ class App < Sinatra::Base
   end
 
   post '/puppy' do
-    "#{params[:name]}"
-    "#{params[:breed]}"
-    "#{params[:age]}"
-
-
+    params[:name]
+    params[:breed]
   end
 end
