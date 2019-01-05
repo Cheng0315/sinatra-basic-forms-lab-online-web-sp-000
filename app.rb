@@ -14,7 +14,7 @@ class App < Sinatra::Base
     params[:name]
     params[:breed]
     params[:age].to_i
-
+    "hdkajs"
     erb :display_puppy
   end
 end
